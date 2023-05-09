@@ -48,3 +48,17 @@ body {
 .calculator {
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3);
 }
+
+.calculator_display {
+    background-color: var(--grey-900);
+    color: var(--grey-050);
+    width: 16.25rem;
+    padding: .75rem 1rem;
+    text-align: right;
+    font-size: calc(1rem * 1.2 * 1.2);
+}
+
+.calculator_keys {
+    background: purple;
+    display: grid;
+}
