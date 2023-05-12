@@ -63,6 +63,7 @@ body {
 .calculator_keys {
     background: var(--grey-200);
     display: grid;
+    grid-auto-rows: 50px;
     grid-gap: 2px;
     grid-template-columns: repeat(4, auto);
     grid-template-areas:
